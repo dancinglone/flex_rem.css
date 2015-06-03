@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*media queries*/
+
+html {
+    /*for 320px screen*/
+    
+    font-size: 100px;
+    font-family: Simhei serif;
+}
+
+body {
+    font-size: 16px;
+    font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
+}
+
+@media (width: 375px) {
+    html {
+        /*117.1875   ip6*/
+        
+        font-size: 117.1875px;
+    }
+}
+
+@media (width: 414px) {
+    html {
+        /*129.375   ip6+ */
+        
+        font-size: 129.375px;
+    }
+}
+
+@media (width: 360px) {
+    html {
+        /*  112.5 bb z30, nexus 5 ,gs 4, sony z1*/
+        
+        font-size: 112.5px;
+    }
+}
+
+@media (width: 384px) {
+    html {
+        /*  bb z10 , nexus 4*/
+        
+        font-size: 120px;
+    }
+}
+
+@media (width: 400px) {
+    html {
+        /*  132.5 meizu 2 3 4 */
+        
+        font-size: 125px;
+    }
+}
+
+@media (width: 424px) {
+    html {
+        /*  132.5 LG Optimus LTE */
+        
+        font-size: 132.5px;
+    }
+}
+
+@media (width: 480px) {
+    html {
+        /* sony sola ,sony U*/
+        
+        font-size: 150px;
+    }
+}
+
+@media (width: 1024px) {
+    html {
+        /* ipad landscape*/
+        
+        font-size: 320px;
+    }
+}
+
+@media (width: 768px) {
+    html {
+        /* ipad portrait*/
+        
+        font-size: 240px;
+    }
+}
