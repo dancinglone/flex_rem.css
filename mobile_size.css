@@ -50,9 +50,17 @@ body {
 
 @media (width: 400px) {
     html {
-        /*  132.5 meizu 2 3 4 */
+        /* meizu 2 note*/
         
         font-size: 125px;
+    }
+}
+
+@media (width: 432px) {
+    html {
+        /* meizu 3、 4?*/
+        
+        font-size: 135px;
     }
 }
 
@@ -85,5 +93,13 @@ body {
         /* ipad portrait*/
         
         font-size: 240px;
+    }
+}
+
+@media (width: 602px) {
+    html {
+        /* samsung gt-n5110 portrait*/
+        
+        font-size: 188.125px;
     }
 }
