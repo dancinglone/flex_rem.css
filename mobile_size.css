@@ -2,13 +2,13 @@
     margin: 0;
     padding: 0;
 }
+
+
 /*media queries*/
 
 html {
     /*for 320px screen*/
-    
     font-size: 100px;
-    font-family: Simhei serif;
 }
 
 body {
@@ -19,7 +19,6 @@ body {
 @media (width: 375px) {
     html {
         /*117.1875   ip6*/
-        
         font-size: 117.1875px;
     }
 }
@@ -27,7 +26,6 @@ body {
 @media (width: 414px) {
     html {
         /*129.375   ip6+ */
-        
         font-size: 129.375px;
     }
 }
@@ -35,7 +33,6 @@ body {
 @media (width: 360px) {
     html {
         /*  112.5 bb z30, nexus 5 ,gs 4, sony z1*/
-        
         font-size: 112.5px;
     }
 }
@@ -43,7 +40,6 @@ body {
 @media (width: 384px) {
     html {
         /*  bb z10 , nexus 4*/
-        
         font-size: 120px;
     }
 }
@@ -51,7 +47,6 @@ body {
 @media (width: 400px) {
     html {
         /* meizu 2 note*/
-        
         font-size: 125px;
     }
 }
@@ -59,7 +54,6 @@ body {
 @media (width: 432px) {
     html {
         /* meizu 3、 4?*/
-        
         font-size: 135px;
     }
 }
@@ -67,7 +61,6 @@ body {
 @media (width: 424px) {
     html {
         /*  132.5 LG Optimus LTE */
-        
         font-size: 132.5px;
     }
 }
@@ -75,7 +68,6 @@ body {
 @media (width: 480px) {
     html {
         /* sony sola ,sony U*/
-        
         font-size: 150px;
     }
 }
@@ -83,7 +75,6 @@ body {
 @media (width: 1024px) {
     html {
         /* ipad landscape*/
-        
         font-size: 320px;
     }
 }
@@ -91,15 +82,22 @@ body {
 @media (width: 768px) {
     html {
         /* ipad portrait*/
-        
         font-size: 240px;
+    }
+}
+
+@media (width: 600px) {
+    html {
+        /* nexus 7 portrait*/
+        font-size: 187.5px;
     }
 }
 
 @media (width: 602px) {
     html {
         /* samsung gt-n5110 portrait*/
-        
         font-size: 188.125px;
     }
 }
+
+
