@@ -11,9 +11,8 @@
             width: 1.2rem;
             height: 1.2rem;
             margin-left: 1rem;
-            margin-top: 2.24rem;
+            margin-top: 1rem;
             background-color: #000;
-
             line-height: 1.2rem;
             font-size: .24rem;
             text-align: center;
@@ -23,7 +22,18 @@
 </head>
 
 <body>
+    <div>
+        <p>clientWidth: 
+            <span id="clientWidth"></span>
+        </p>
+    </div>
     <div id="demo">m_size</div>
+    <script type="text/javascript">
+        window.onload = function() {
+            var clientWidth = document.documentElement.clientWidth;
+            document.getElementById('clientWidth').innerText = clientWidth;
+        };
+    </script>
 </body>
 
 </html>
