@@ -93,6 +93,13 @@ body {
     }
 }
 
+@media (width: 393px) {
+    html {
+        /* MX3 wechat*/
+        font-size: 122.8125px;
+    }
+}
+
 @media (width: 602px) {
     html {
         /* samsung gt-n5110 portrait*/
