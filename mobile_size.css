@@ -44,6 +44,13 @@ body {
     }
 }
 
+@media (width: 412px) {
+    html {
+        /* nexus 6*/
+        font-size: 128.75px;
+    }
+}
+
 @media (width: 400px) {
     html {
         /* meizu 2 note*/
@@ -107,4 +114,16 @@ body {
     }
 }
 
+@media (width: 800px) {
+    html {
+        /* google nexus 10 portrait*/
+        font-size: 250px;
+    }
+}
 
+@media (width: 1600px) {
+    html {
+        /* kindel fire hdx portrait*/
+        font-size: 500px;
+    }
+}
