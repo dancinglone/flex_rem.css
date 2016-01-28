@@ -3,6 +3,10 @@ html {
     font-size: 100px;
 }
 
+body {
+	font-size: initial;
+}
+
 @media (width: 375px) {
     html {
         /*117.1875   ip6*/
